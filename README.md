@@ -21,17 +21,20 @@ I also wasn't sure how much food my Entbrat would take to get to level 15.
 Installation
 ------------
 1. Git clone the project
-```bash
-git clone https://github.com/ciarand/monsters-feeding-calculator
-```
+
+  ```bash
+  git clone https://github.com/ciarand/monsters-feeding-calculator
+  ```
 2. Use [composer][] to install the dependencies
-```bash
-composer install
-```
+
+  ```bash
+  composer install
+  ```
 3. Run the app
-```bash
-php app.php --from-level 1 --to-level 15 --current-food-cost 15
-```
+
+  ```bash
+  php app.php --from-level 1 --to-level 15 --current-food-cost 15
+  ```
 
 [composer]: http://getcomposer.org/
 
