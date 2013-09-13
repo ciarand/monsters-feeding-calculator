@@ -41,9 +41,10 @@ class Calculator extends \Cilex\Command\Command
     {
         $this->testInputRange($from, $to);
         $arr = array();
-        $total = $current;
+        $total = 0;
         for ( ; $from <= $to; $from += 1) {
-            $arr[] = [$from, $current * 4, $total += ($current *= 2)];
+            $arr[] = [$from, $current *= 4, $total += ($current)];
+            $current /= 2;
         }
         return $arr;
     }
