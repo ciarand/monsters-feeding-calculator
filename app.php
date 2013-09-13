@@ -6,6 +6,6 @@ if (!$loader = include __DIR__.'/vendor/autoload.php') {
 
 use RestlessCo\MonstersFeedingCalculator\Command\Calculator;
 
-$app = new \Cilex\Application('Monsters Feeding Calculator', '0.1.0');
+$app = new \Cilex\Application('Monsters Feeding Calculator', file_get_contents('version'));
 $app->command(new Calculator());
 $app->run();
