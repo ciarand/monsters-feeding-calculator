@@ -1,3 +1,5 @@
+This project is deprecated and unmaintained. Proceed with caution!
+
 Monsters Feeding Calculator
 ===========================
 This project is a very simple CLI app built on [Cilex][] (which in turn is
